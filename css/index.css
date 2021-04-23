@@ -1,0 +1,51 @@
+
+.container{
+    /* border: 2px solid black; */
+    /* margin-left: 500px; */
+    /* margin-right:  */
+    display: grid;
+    grid-template-columns: repeat(4 , 145px);
+    grid-row-gap: 2rem;
+    grid-column-gap: 0.5rem;
+    perspective: 1000px;
+    padding: 2rem;
+    
+    
+}
+.box{
+    /* background-color: red; */
+    border: 2px solid black;
+    height: 155px;
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 0px -1px 2px 4px white;
+    transition: 1s;
+}
+
+.box img{
+    border-radius: 20px;
+    height: 155px;
+    width: 140px;
+}
+.box img:active{
+    transform: scale(0.97);
+    transition: .2s;
+
+}
+
+.rotate{
+    transform: rotateY(180deg);
+}
+
+
+@media only screen and (min-width: 645px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+}
+
+    
