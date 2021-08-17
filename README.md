@@ -2,4 +2,4 @@
 
 All the clashers might know about these lines taken from https://clashofclans.fandom.com/wiki/Category:Troops.
 
-this website is a fan made to promote the game of clash OF clans
+_This website is a fan made to promote the game of clash OF clans_
